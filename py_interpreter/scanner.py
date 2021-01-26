@@ -1,5 +1,5 @@
-from token_type import TokenType
-from token import Token
+from .token_type import TokenType
+from .token import Token
 
 SINGLE_CHARS = ['(', ')', '{', '}', ',', '.', '-', '+', ';', '*']
 NULL_CHARS = [' ', '\r', '\t']

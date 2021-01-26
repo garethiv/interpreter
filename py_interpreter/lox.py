@@ -1,5 +1,5 @@
 from pathlib import Path
-from scanner import Scanner
+from .scanner import Scanner
 
 class Lox:
     had_error = False
